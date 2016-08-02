@@ -12,7 +12,7 @@ describe(__filename, function () {
     dbStub = sinon.stub();
 
     var app = require('express')();
-    var usersRouter = proxyquire('lib/users', {
+    var usersRouter = proxyquire('../../lib/users', {
       'fh-mbaas-api': {
         db: dbStub
       }
