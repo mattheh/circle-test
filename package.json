@@ -27,7 +27,8 @@
     "sinon": "^1.17.2",
     "supertest": "0.8.2",
     "time-grunt": "^0.3.2",
-    "chai": "~3.5.0"
+    "chai": "~3.5.0",
+    "bluebird": "~3.4.1"
   },
   "main": "application.js",
   "scripts": {
